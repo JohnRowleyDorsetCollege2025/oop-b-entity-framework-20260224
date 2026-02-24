@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using OrderPortal.Domain.Models;
 
 namespace OrderPortal.Api.Data;

@@ -4,3 +4,13 @@ GET {{OrderPortal.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+
+POST {{OrderPortal.Api_HostAddress}}/api/demo/seed
+Accept: application/json
+
+###
+
+GET {{OrderPortal.Api_HostAddress}}/api/demo/invoices
+Accept: application/json
+
