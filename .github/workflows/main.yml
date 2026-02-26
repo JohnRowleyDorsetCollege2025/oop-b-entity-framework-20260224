@@ -80,7 +80,7 @@ jobs:
 
   deploy:
     # Only deploy on push to main
-    if:  github.event_name == 'push' && (github.ref == 'refs/heads/master' || contains(github.ref,'test'))
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || contains(github.ref,'test'))
     needs: build-and-test
     runs-on: ubuntu-latest
     environment:
