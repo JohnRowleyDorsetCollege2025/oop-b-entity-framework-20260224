@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="OrderPortal.Api/OrderPortal.Api.csproj" />
   <Project Path="OrderPortal.Domain/OrderPortal.Domain.csproj" />
+  <Project Path="OrderPortal.Tests/OrderPortal.Tests.csproj" Id="45a55448-e201-4e89-9e30-36421df840a2" />
 </Solution>
